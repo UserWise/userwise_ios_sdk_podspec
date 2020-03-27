@@ -5,25 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/userwise_ios.svg?style=flat)](https://cocoapods.org/pods/userwise_ios)
 [![Platform](https://img.shields.io/cocoapods/p/userwise_ios.svg?style=flat)](https://cocoapods.org/pods/userwise_ios)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
-userwise_ios is available through [CocoaPods](https://cocoapods.org). To install
+The UserWise iOS SDK is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'userwise_ios'
+pod "UserWise"
 ```
 
-## Author
+## Contact
 
-David Jenkins, david@theoremreach.com
+Tom Hammond tom@userwise.io
 
 ## License
 
-userwise_ios is available under the MIT license. See the LICENSE file for more info.
+UserWise SDK is available under the MIT license. See the LICENSE file for more info.
+

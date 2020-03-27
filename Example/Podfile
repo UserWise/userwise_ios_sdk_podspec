@@ -1,6 +1,0 @@
-use_frameworks!
-target 'userwise_ios_Tests' do
-  pod 'userwise_ios', :path => '../'
-  
-  
-end
