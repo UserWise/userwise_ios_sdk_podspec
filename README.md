@@ -1,8 +1,8 @@
 # userwise_ios
 
-[![Version](https://img.shields.io/cocoapods/v/userwise_ios.svg?style=flat)](https://cocoapods.org/pods/UserWise)
-[![License](https://img.shields.io/cocoapods/l/userwise_ios.svg?style=flat)](https://cocoapods.org/pods/UserWise)
-[![Platform](https://img.shields.io/cocoapods/p/userwise_ios.svg?style=flat)](https://cocoapods.org/pods/UserWise)
+[![Version](https://img.shields.io/cocoapods/v/UserWise.svg?style=flat)](https://cocoapods.org/pods/UserWise)
+[![License](https://img.shields.io/cocoapods/l/UserWise.svg?style=flat)](https://cocoapods.org/pods/UserWise)
+[![Platform](https://img.shields.io/cocoapods/p/UserWise.svg?style=flat)](https://cocoapods.org/pods/UserWise)
 
 
 ## Installation
