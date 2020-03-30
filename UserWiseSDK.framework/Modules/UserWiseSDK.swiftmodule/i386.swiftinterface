@@ -1,0 +1,49 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-module-flags: -target i386-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UserWiseSDK
+import AdSupport
+import CoreTelephony
+import Foundation
+import Swift
+import UIKit
+import WebKit
+@objc(UserWise) public class UserWise : ObjectiveC.NSObject {
+  @objc(sdkVersion) final public let sdkVersion: Swift.String
+  @objc(debugMode) open var debugMode: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  @objc(surveyDelegate) open var surveyDelegate: UserWiseSDK.UserWiseSurveyDelegate? {
+    @objc get
+    @objc set(value)
+  }
+  @objc(apiKey) open var apiKey: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc(userId) open var userId: Swift.String? {
+    @objc get
+    @objc set(value)
+  }
+  @objc public static let sharedInstance: UserWiseSDK.UserWise
+  @objc open func initialize(apiKey: Swift.String, userId: Swift.String)
+  @objc open func setColors(primaryColor: UIKit.UIColor?, splashScreenBackgroundColor: UIKit.UIColor?)
+  @objc open func setSplashScreenLogo(_ logo: UIKit.UIImage)
+  @objc open func isInitialized() -> Swift.Bool
+  @objc open func hasSurveysAvailable() -> Swift.Bool
+  @objc open func refreshHasAvailableSurveys()
+  @objc open func takeNextSurvey()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIDevice {
+  public static let modelName: Swift.String
+}
+@objc(UserWiseSurveyDelegate) public protocol UserWiseSurveyDelegate {
+  @objc func onSurveyAvailable()
+  @objc func onSurveysUnavailable()
+  @objc func onSurveyEntered()
+  @objc func onSurveyEnterFailed()
+  @objc func onSurveyClosed()
+  @objc func onSurveyCompleted()
+}

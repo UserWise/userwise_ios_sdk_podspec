@@ -1,4 +1,4 @@
-# userwise_ios
+# UserWise iOS SDK (Pod Repo)
 
 [![Version](https://img.shields.io/cocoapods/v/UserWise.svg?style=flat)](https://cocoapods.org/pods/UserWise)
 [![License](https://img.shields.io/cocoapods/l/UserWise.svg?style=flat)](https://cocoapods.org/pods/UserWise)
