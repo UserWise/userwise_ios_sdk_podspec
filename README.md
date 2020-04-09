@@ -14,6 +14,10 @@ it, simply add the following line to your Podfile:
 pod "UserWise"
 ```
 
+## Example App
+
+The UserWise example app can be seen by navigating to https://github.com/UserWise/userwise_ios_example/
+
 ## Contact
 
 Tom Hammond tom@userwise.io
