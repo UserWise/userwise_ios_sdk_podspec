@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UserWise'
-  s.version          = '1.1.2'
+  s.version          = '1.2.0'
   s.summary          = 'UserWise - Understand why your users act'
   s.swift_version    = '5.0'
 

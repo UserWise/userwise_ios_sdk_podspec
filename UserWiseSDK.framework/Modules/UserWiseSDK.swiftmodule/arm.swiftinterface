@@ -43,6 +43,8 @@ import WebKit
   }
   @objc public static let sharedInstance: UserWiseSDK.UserWise
   @objc open func initialize(apiKey: Swift.String, userId: Swift.String)
+  @objc open func onStart()
+  @objc open func onStop()
   @objc open func isInitialized() -> Swift.Bool
   @objc open func hasSurveysAvailable() -> Swift.Bool
   @objc open func setColors(primaryColor: UIKit.UIColor?, splashScreenBackgroundColor: UIKit.UIColor?)
@@ -51,7 +53,7 @@ import WebKit
   @objc open func setAttributes(_ attributes: [Swift.String : Any])
   @objc open func refreshHasAvailableSurveys()
   @objc open func initializeSurveyInvite(delegate: UserWiseSDK.UserWiseSurveyInviteDelegate)
-  @objc open func setSurveyInviteResponse(surveyInviteResponse: Swift.Bool)
+  @objc open func setSurveyInviteResponse(_ surveyInviteResponse: Swift.Bool)
   @objc deinit
   @objc override dynamic public init()
 }
@@ -59,7 +61,7 @@ extension UIDevice {
   public static let modelName: Swift.String
 }
 @objc(UserWiseSurveyInviteDelegate) public protocol UserWiseSurveyInviteDelegate {
-  @objc func onSurveyInviteInitialized(wasSuccessfullyInitialized: Swift.Bool)
+  @objc func onSurveyInviteInitialized(_ wasSuccessfullyInitialized: Swift.Bool)
 }
 @_inheritsConvenienceInitializers @objc public class UserWiseStyleConfiguration : ObjectiveC.NSObject {
   @objc public var primaryColor: UIKit.UIColor? {
