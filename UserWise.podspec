@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UserWise'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'UserWise - Understand why your users act'
   s.swift_version    = '5.0'
 
@@ -16,6 +16,7 @@ UserWise provides a lightweight, easy to use SDK that allows you to survey your 
   s.ios.deployment_target = '8.0'
 
   s.frameworks = 'AdSupport', 'Foundation', 'CoreTelephony', 'UIKit', 'Webkit'
+  s.weak_frameworks = 'AppTrackingTransparency'
   s.vendored_frameworks = 'UserWiseSDK.framework'
   s.requires_arc = true
 end
