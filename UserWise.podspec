@@ -16,7 +16,6 @@ UserWise provides a lightweight, easy to use SDK that allows you to survey your 
   s.ios.deployment_target = '8.0'
 
   s.frameworks = 'AdSupport', 'Foundation', 'CoreTelephony', 'UIKit', 'Webkit'
-  s.weak_frameworks = 'AppTrackingTransparency'
   s.vendored_frameworks = 'UserWiseSDK.framework'
   s.requires_arc = true
 end
