@@ -10,8 +10,5 @@ it, simply add the following line to your Podfile:
 pod "UserWise"
 ```
 
-## iOS Simulator Support
-An iOS Simulator compatible framework can be pulled from `simulator/UserWiseSDK.framework`.
-
 ## Example App
 The UserWise example app can be seen by navigating to https://github.com/UserWise/userwise_ios_example/

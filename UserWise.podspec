@@ -13,7 +13,7 @@ UserWise provides a lightweight, easy to use SDK that allows you to survey your 
   s.source           = { :git => 'https://github.com/UserWise/userwise_ios_sdk_podspec.git', :tag => s.version.to_s }
   s.author           = { "UserWise Dev Team" => "admin@userwise.io" }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.frameworks = 'AdSupport', 'Foundation', 'CoreTelephony', 'UIKit', 'Webkit'
   s.vendored_frameworks = 'UserWiseSDK.xcframework'
