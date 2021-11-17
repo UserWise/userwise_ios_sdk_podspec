@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UserWise'
-  s.version          = '2.2.0'
-  s.summary          = 'UserWise - Understand why your users act'
+  s.version          = '2.2.1'
+  s.summary          = 'UserWise - All of your game liveops in one place'
   s.swift_version    = '5.0'
 
   s.description      = <<-DESC
